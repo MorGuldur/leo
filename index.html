@@ -11,131 +11,262 @@
 </head>
 
 <body>
-	<div class="conteiner">
+	<div class="container">
 		<header>
-			<div class="header__logo">
-				<a href="#">Leo/-</a>
+			<div class="header__item">
+				<a class="header__logo logo" href="#">Leo/-</a>
 			</div>
-			<ul class="header_nav">
-				<li><a href="#">Solutions</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+			<div class="header__item">
+				<ul class="header__nav">
+					<li><a class="header__nav__link" href="#">Solutions</a></li>
+					<li><a class="header__nav__link" href="#">Products</a></li>
+					<li><a class="header__nav__link" href="#">Portfolio</a></li>
+					<li><a class="header__nav__link" href="#">Contact</a></li>
+				</ul>
+			</div>
 		</header>
 
 		<section class="banner">
-			<input type="radio" name="slider-group" id="slide1" />
 			<div class="banner__slide">
-				<img class="banner__slide__cofe" src="./img/cofelogo.png" alt="#">
-				<h1 class="banner__slide__text">Introducing</h1>
-				<p>Something hot......</p>
-				<a class="banner__slide__button" href="#">Try Demo</a>
+				<img class="banner__slide__image" src="./img/cofelogo.png" alt="#">
+				<div class="banner__slide__info">
+					<div class="banner__slide__text">
+						<h1>Introducing</h1>
+						<h2>Something hot......</h2>
+					</div>
+					<a class="banner__slide__button" href="#">Try Demo</a>
+				</div>
 			</div>
-			<!-- <input type="radio" name="slider-group" id="slide2" />
 			<div class="banner__slide">
-				<img class="banner__slide__cofe" src="./img/cofelogo.png" alt="#">
-				<h1 class="banner__slide__text">Acquaintance</h1>
-				<p>Something new......</p>
-				<a class="banner__slide__button" href="#">Try Now</a>
+				<img class="banner__slide__image" src="./img/cofelogo.png" alt="#">
+				<div class="banner__slide__info">
+					<div class="item-group">
+						<div class="banner__slide__text">
+							<h1>Acquaintance</h1>
+							<h2>Something new......</h2>
+						</div>
+						<a class="banner__slide__button" href="#">Try Now</a>
+					</div>
+				</div>
 			</div>
-			<input type="radio" name="slider-group" id="slide3" />
 			<div class="banner__slide">
-				<img class="banner__slide__cofe" src="./img/cofelogo.png" alt="#">
-				<h1 class="banner__slide__text">Choice</h1>
-				<p>Something yours......</p>
-				<a class="banner__slide__button" href="#">Try Here</a>
-			</div> -->
+				<img class="banner__slide__image" src="./img/cofelogo.png" alt="#">
+				<div class="banner__slide__info">
+					<div class="item-group">
+						<div class="banner__slide__text">
+							<h1>Choice</h1>
+							<h2>Something yours......</h2>
+						</div>
+						<a class="banner__slide__button" href="#">Try Here</a>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="main-info">
-			<article class="main-info__text">
+			<div class="slider__control">
+				<label id="l1" for="slide1">
+					<img src="./img/icons/blueicon1.png" alt="#">
+					<h3>Responsive</h3>
+				</label>
+				<label id="l2" for="slide2">
+					<img src="./img/icons/yellowicon2.png" alt="#">
+					<h3>Commerce</h3>
+				</label>
+				<label id="l3" for="slide3">
+					<img src="./img/icons/greenicon3.png" alt="#">
+					<h3>Daily blog</h3>
+				</label>
+				<label id="l4" for="slide4">
+					<img src="./img/icons/orangeicon4.png" alt="#">
+					<h3>Search based</h3>
+				</label>
+			</div>
+			<input type="radio" name="slider-article" id="slide1" checked />
+			<article class="main-info__slide">
 				<img src="./img/ipad.png" alt="#">
 				<h2>Lorem ipsum dolor sit amet.</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, consectetur aspernatur labore dolorum
 					laboriosam similique illo eaque beatae autem tempore soluta. Veritatis laborum quas vitae harum iure
 					officiis maiores sint exercitationem beatae in. Accusamus deleniti dignissimos esse odio vitae autem!
-					Ratione doloribus praesentium ex cupiditate recusandae? Labore architecto sequi itaque?</p>
+					Ratione doloribus praesentium ex cupiditate recusandae? Labore architecto sequi itaque?
+				</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
+					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
+					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
+					voluptatibus
+					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem
+					iusto
+					voluptatum nam at! Конец текста.
+				</p>
 			</article>
-			<article class="main-info__text">
+			<input type="radio" name="slider-article" id="slide2" />
+			<article class="main-info__slide">
 				<img src="./img/ipad.png" alt="#">
 				<h2>Lorem ipsum dolor sit amet consectetur.</h2>
 				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim cupiditate obcaecati impedit,
 					exercitationem eius facilis aliquam eum, consequuntur ea nihil aperiam, illum corporis voluptatum
-					accusamus odit dignissimos. Ea, molestias sequi.</p>
+					accusamus odit dignissimos. Ea, molestias sequi. Lorem ipsum dolor sit amet consectetur, adipisicing
+					elit. Enim cupiditate obcaecati impedit, exercitationem eius facilis aliquam eum, consequuntur ea nihil
+					aperiam, illum corporis voluptatum
+					accusamus odit dignissimos.
+				</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
+					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
+					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
+					voluptatibus alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil!
+					Voluptatem iusto
+					voluptatum nam at!
+				</p>
+				<p>Ea, molestias sequi. Lorem ipsum dolor sit amet consectetur, adipisicing
+					elit. Enim cupiditate obcaecati impedit,
+					exercitationem eius facilis aliquam eum, consequuntur ea nihil aperiam, illum corporis voluptatum
+					accusamus odit dignissimos. Ea, molestias sequi. Конец текста.
+				</p>
 			</article>
-			<article class="main-info__text">
+			<input type="radio" name="slider-article" id="slide3" />
+			<article class="main-info__slide">
 				<img src="./img/ipad.png" alt="#">
 				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ratione sunt impedit vel maiores
-					dignissimos pariatur sit sint quod sapiente repellat officia, velit asperiores debitis quasi ducimus eum
-					dolorem fugit molestiae, iusto dicta, eveniet reprehenderit ipsa itaque! Magnam, quaerat voluptate?</p>
+					dignissimos pariatur sit sint quod sapiente repellat officia, velit asperiores debitis quasi ducimus
+					eum dolorem fugit molestiae, iusto dicta, eveniet reprehenderit ipsa itaque! Magnam, quaerat voluptate?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
+					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
+					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
+					voluptatibus
+					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem
+					iusto
+					voluptatum nam at!
+					Totam ratione sunt impedit vel maiores
+					dignissimos pariatur sit sint quod sapiente repellat officia, velit asperiores debitis quasi ducimus
+					eum
+					dolorem fugit molestiae, iusto dicta, eveniet reprehenderit ipsa itaque! Magnam, quaerat voluptate?
+				</p>
+				<p>Lorem
+					ipsum dolor sit amet consectetur adipisicing elit. Totam ratione sunt impedit vel maiores
+					dignissimos pariatur sit sint quod sapiente repellat officia, velit asperiores debitis quasi ducimus
+					eum
+					dolorem fugit molestiae, iusto dicta, eveniet reprehenderit ipsa itaque! Magnam, quaerat voluptate? Конец
+					текста.
+				</p>
 			</article>
-			<article class="main-info__text">
+			<input type="radio" name="slider-article" id="slide4" />
+			<article class="main-info__slide">
 				<img src="./img/ipad.png" alt="#">
 				<h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
 					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
 					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
 					voluptatibus
-					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem iusto
-					voluptatum nam at!</p>
+					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem
+					iusto
+					voluptatum nam at!
+				</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
+					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
+					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
+					voluptatibus
+					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem
+					iusto
+					voluptatum nam at!
+				</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id alias obcaecati possimus adipisci aut hic
+					labore neque omnis consectetur sunt modi nulla in temporibus sed maxime ex vel ut deserunt recusandae,
+					non eius quas quis earum magni. Placeat, consectetur cupiditate voluptates perspiciatis,
+					voluptatibus
+					alias nobis molestias qui ratione aut, deserunt sequi sapiente recusandae fugiat nihil! Voluptatem
+					iusto
+					voluptatum nam at! Конец текста.
+				</p>
 			</article>
 		</section>
 
 		<section class="promo">
-			<img src="./img/screenshot.png" alt="#">
-			<h3>Why choose us ?</h3>
-			<ul>
-				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-				<li> Excepturi obcaecati voluptates adipisci repellat eveniet.</li>
-				<li> Molestias consequatur dolor odio veniam quibusdam earum perspiciatis nisi.</li>
-				<li> Omnis minus recusandae corrupti esse rerum assumenda eos?</li>
-				<li> Doloremque, laborum porro praesentium veniam nisi provident quibusdam.</li>
-				<li> Provident, eius quae.</li>
-			</ul>
+			<div class="subpromo">
+				<div class="promo__img">
+					<img src="./img/screenshot.png" alt="#">
+				</div>
+				<div class="promo__item">
+					<h3>Why choose us ?</h3>
+					<ul>
+						<li>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</li>
+						<li>
+							<p>Excepturi obcaecati voluptates adipisci repellat eveniet.</p>
+						</li>
+						<li>
+							<p>Molestias consequatur dolor odio veniam quibusdam.</p>
+						</li>
+						<li>
+							<p>Omnis minus recusandae corrupti esse rerum assumenda eos?</p>
+						</li>
+						<li>
+							<p>Doloremque, laborum porro praesentium.</p>
+						</li>
+						<li>
+							<p>Provident, eius quae.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</section>
 
 		<section class="feedback">
-			<form class="login" action="#" method="POST" enctype="multipart/form-data">
-				<h4>Menber login</h4>
-				<input type="text" name="username" placeholder="Name">
-				<input type="password" name="userpass" placeholder="Password">
-				<button type="submit">
-					Log me in
-				</button>
-			</form>
-			<form class="news" action="#" method="POST" enctype="multipart/form-data">
-				<h4>Subscribe to our weekly newsletter</h4>
-				<input type="text" name="mail" placeholder="Email adress">
-				<button type="submit">
-					Subscribe.
-				</button>
-			</form>
+			<div class="feedback-main">
+				<div class="feedback__log">
+					<form action="#" method="POST" enctype="multipart/form-data">
+						<h4>Member login</h4>
+						<input type="text" name="username" placeholder="Name">
+						<input type="password" name="userpass" placeholder="Password">
+						<button type="submit">
+							Log me in
+						</button>
+					</form>
+				</div>
+				<div class="feedback__mail">
+					<form action="#" method="POST" enctype="multipart/form-data">
+						<h4>Subscribe to our weekly newsletter</h4>
+						<input type="text" name="mail" placeholder="Email adress">
+						<button type="submit">
+							Subscribe
+						</button>
+					</form>
+				</div>
+			</div>
 		</section>
 
 		<footer>
-			<div class="footer__info">
-				<h5>About Us</h5>
+			<div class="footer__item">
+				<h4>About Us</h4>
 				<ul>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Why us</a></li>
-					<li><a href="#">Customer Stories</a></li>
-					<li><a href="#">Press Resources</a></li>
-					<li><a href="#">Press Releases</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a class="footer__item__text" href="#">About us</a></li>
+					<li><a class="footer__item__text" href="#">Why us</a></li>
+					<li><a class="footer__item__text" href="#">Customer Stories</a></li>
+					<li><a class="footer__item__text" href="#">Press Resources</a></li>
+					<li><a class="footer__item__text" href="#">Press Releases</a></li>
+					<li><a class="footer__item__text" href="#">Contact us</a></li>
 				</ul>
-				<h5>Testimoanials</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore molestias exercitationem laudantium
+			</div>
+			<div class="footer__item">
+				<h4>Testimoanials</h4>
+				<p class="footer__item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore molestias
+					exercitationem laudantium
 					adipisci. Corporis quae et nostrum? Modi consequatur minus quibusdam beatae tempore, similique provident
-					numquam nemo repellendus totam neque.</p>
+					numquam nemo repellendus totam neque.
+				</p>
 			</div>
-			<div class="footer__logo">
-				<a href="#">Leo/-</a>
+			<div class="footer__item">
+				<a class="footer__logo logo" href="#">Leo/-</a>
+				<p class="footer__item__sign">© cssauthor.com</p>
 			</div>
-			<p>© cssauthor.com</p>
 		</footer>
-
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="/js/script.js"></script>
 	</div>
 </body>
 
