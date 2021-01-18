@@ -6,3 +6,8 @@ $(document).ready(function(){
 		autoplaySpeed:3000
 	});
 });
+$(document).ready(function() {
+	$('.header__burger').click(function(event) {
+		$('.header__burger,.header__nav').toggleClass('active');
+	});
+});
